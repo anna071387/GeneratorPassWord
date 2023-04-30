@@ -27,7 +27,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(221, 91%, 18%);
 }
 
 .card {
@@ -117,6 +117,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+
 
 @media (max-width: 690px) {
   .btn {
