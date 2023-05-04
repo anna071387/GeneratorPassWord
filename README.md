@@ -1,34 +1,25 @@
 # Password Generator Starter Code
-## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+![alt text](./assets/screenshot3-01.jpg)
 
-## Acceptance Criteria
+This applications is designed to 
+help creating a random password on every click. 
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+It contains built-in attributes to manipulate desired number of characters, control type of characters to include. For instance one may control to include only an upper case, only numbers or only symbols. Or comibine all together. The lowercase elements are default.
+
+ One may easily manipulate the slide bar to assign the amount of characters or manually input the number on the number of characters line. Additionally, one can use the incremental up and down arrows for more control to assign the amount of characters starting from 8 to 128 characters. 
+
+This allows crafting a well secured password.
+
+The application designed to adjust with the amount of characters output and user friendly design for different screen sizes. 
+
+The background cover image was incorporated for visual appeal and playfulness of the design. 
+
+Colors were chosen to communicate stability-security (blue) and alertness (orange) of the password.
 
 
 
+ 
 
 
 Starter code Provided by:
