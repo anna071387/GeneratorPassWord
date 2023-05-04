@@ -6,9 +6,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>GeneratorPassWord</title>
   <link rel="stylesheet" href="./assets/style.css" />
- 
+  <title>GeneratorPassWord</title>
+
 </head>
 
 <body>
@@ -20,19 +20,17 @@
       <section class="card-header">
         <h2>Your new secure password in progress...</h2>
       </section>
-      <!-- <div>
-        <h3 class="password-display"> Your password here</h3>
-      </div> -->
+      
       <div class="card-body">
-        <h3 class="password-display" placeholder="Your Secure Password"></h3>
+        <h3 class="password-display" id="passwordDisplay">
         </h3>
       </div>
       <form id="passwordGeneratorForm">
         <section class="form">
           <label for="characterAmountNumber">Number of Characters</label>
           <div class="character-slider">
-            <input type="range" min="1" max="50" value="10" id="characterAmountRange">
-            <input class="digits" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+            <input type="range" min="1" max="36" value="10" id="characterAmountRange">
+            <input class="digits" type="number" min="1" max="36" value="11" id="characterAmountNumber">
           </div>
 
           <label for="includeUppercase"> Include Uppercase</label>
@@ -44,14 +42,15 @@
           <label for="includeSymbols"> Include Symbols</label>
           <input type="checkbox" id="includeSymbols">
         </section>
+        <section class="card-footer">
+          <button id="generate" type = "submit" class="btn">Ready to Generate</button>
+        </section>
       </form>
-      <section class="card-footer">
-        <button id="generate" class="btn">Ready to Generate</button>
-      </section>
+      
     </div>
   </section>
+
   <script src="./assets/script.js"></script>
-  
 </body>
 
 </html>
