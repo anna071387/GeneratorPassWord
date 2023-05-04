@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Random Password Creator <Malarki>
 
 ![alt text](./assets/screenshot3-01.jpg)
 
