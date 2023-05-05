@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-
+/* incorporated starter code with the customizing options */
 html,
 body,
 .wrapper {
@@ -11,7 +11,7 @@ body,
   margin: 0;
   padding: 0;
 }
-
+/* Incorporated Image png as a cover for the body of the page , image. Flex allows for scalability of the cover image*/
 body {
   background-image: url(SymbolsBack-01.png);
   font-family: Arial, Helvetica,serif, sans-serif;
@@ -96,13 +96,14 @@ font-weight: bold;
   border-radius: 1rem;
 }
 
-.btn :hover {
-  background-color:hsl(207, 75%, 49%);
+.btn:hover {
+  background-color:#208bf5;
+  
 }
 
 
 
-
+/* Assigned as grid to create a layout fo rthe options, justified object in center and row-gap allows for visual location of lines */
 .form {
   margin-top: 25px;
   display: grid;
@@ -112,13 +113,13 @@ font-weight: bold;
   justify-content: center;
   align-items: center;
 }
-
+/* this was given as a starter code */
 button[disabled] {
   cursor: default;
   background: #f6f6f7;
   border-color: #1ddd04;
 }
-
+/* Styling slider */
 .character-slider {
 display: flex;
 align-items: center;
@@ -133,7 +134,8 @@ align-items: center;
 .float-right {
   float: right;
 }
-
+/* given by the starter code assigning colors of background of the area for password input.
+The dashed line adds a nice quality */
 .password-display {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -157,7 +159,7 @@ align-items: center;
 }
 
 
-
+/* allows for responsivness of the application to different screen sizes */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;

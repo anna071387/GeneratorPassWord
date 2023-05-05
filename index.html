@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="./assets/style.css" />
-  <title>Malarki</title>
+  <title>MalarKey</title>
 
 </head>
-
+<!-- Container for the whole code -->
 <body>
   <section class="wrapper">
     <header>
@@ -25,31 +25,34 @@
         <h3 class="password-display" id="passwordDisplay">
         </h3>
       </div>
+      <!-- ID for selecting different criteria for password -->
       <form id="passwordGeneratorForm">
         <section class="form">
           <label for="characterAmountNumber">Number of Characters</label>
           <div class="character-slider">
+            <!-- Inputs range for the slider with assigned amount of charachters -->
             <input type="range" min="8" max="128" value="10" id="characterAmountRange">
             <input class="digits" type="number" min="8" max="128" value="11" id="characterAmountNumber">
           </div>
-
+          <!-- Upper case selector -->
           <label for="includeUppercase"> Include Uppercase</label>
           <input type="checkbox" id="includeUppercase">
-
+          <!-- Number Selector -->
           <label for="includeNumbers"> Include Numbers</label>
           <input type="checkbox" id="includeNumbers">
-
+          <!-- Symbol Selector -->
           <label for="includeSymbols"> Include Symbols</label>
           <input type="checkbox" id="includeSymbols">
         </section>
         <section class="card-footer">
+          <!-- Button to generate password on submit -->
           <button id="generate" type = "submit" class="btn">Ready to Generate</button>
         </section>
       </form>
       
     </div>
   </section>
-
+<!-- Java script always loads at the buttom, if put at the top must include "defer" to run it last -->
   <script src="./assets/script.js"></script>
 </body>
 

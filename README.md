@@ -1,4 +1,4 @@
-# Random Password Creator <Malarki>
+# Random Password Creator MalarKey
 
 ![alt text](./assets/screenshot3-01.jpg)
 
@@ -16,16 +16,13 @@ It contains built-in attributes to manipulate desired number of characters, cont
 This allows crafting a well secured password.
 
 
-#####Design
+## Design
 The application designed to adjust with the amount of characters output and user friendly design for different screen sizes. 
 
 The background cover image was incorporated for visual appeal and playfulness of the design. 
 
 Colors were chosen to communicate stability-security (blue) and alertness (orange) of the password.
 
-
-
- 
 
 ## Credits
 Starter code Provided by:
