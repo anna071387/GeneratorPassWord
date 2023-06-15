@@ -2,6 +2,8 @@
 
 ![alt text](./assets/screenshot3-01.jpg)
 
+https://anna071387.github.io/MalarKey/
+
 ## Project purpose
 This applications is designed to 
 help creating a random password on every click. 
