@@ -30,4 +30,4 @@ Colors were chosen to communicate stability-security (blue) and alertness (orang
 Starter code Provided by:
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
-Inspiratio for usability: Web Development Simplified Tutorial "Build a password generator with JavaScript - Tutorial" 
+Inspiration for usability: Web Development Simplified Tutorial "Build a password generator with JavaScript - Tutorial" 
